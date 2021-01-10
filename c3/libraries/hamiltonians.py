@@ -51,11 +51,6 @@ def third_order(a):
     n = np.matmul(a_dag, a)
     return np.matmul(n,a)+np.matmul(a_dag,n)
 
-
-
-
-
-
 @hamiltonian_reg_deco
 def duffing(a):
     """
